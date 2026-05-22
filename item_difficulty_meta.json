@@ -1,5 +1,0 @@
-{
-  "in_dim": 384,
-  "val_mse": 3.305030345916748,
-  "emb_model": "sentence-transformers/all-MiniLM-L6-v2"
-}
