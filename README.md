@@ -1,6 +1,6 @@
-# Predictive Evaluation Challenge — Submission 18
+# Predictive Evaluation Challenge
 
-Stanford CS 321M | Codabench
+Stanford CS 321M | AI Measurement Science
 
 Predicts the probability that a language model correctly answers a benchmark question, given text descriptions of the model and question plus a small labeled set revealed per round.
 
@@ -33,7 +33,7 @@ P_final = clip( σ(logit(P_mix) + s_b*),  0.10, 0.90 )
 ## Repository structure
 
 ```
-my_submission/                          # Upload this zip to Codabench
+submission/                          
   model.py                              # predict() — mixture + calibration + clip
   labeling.py                           # acquisition_function() — uncertainty sampling
   subject_theta.json                    # theta_s for 909 subjects
@@ -51,11 +51,6 @@ offline_training/
   08_build_fingerprint.py               # Build M[s, b] from responses.parquet
   modal_train.py                        # Joint 2PL IRT + bridge training on Modal A100
   06_package_submission.py              # Package my_submission.zip
-
-report/
-  main.tex                              # NeurIPS-style report
-  references.bib
-  neurips_2024.sty
 ```
 
 ---
