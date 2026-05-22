@@ -1,0 +1,10 @@
+{
+  "b_mean": -0.43862876296043396,
+  "b_std": 1.3874527215957642,
+  "log_a_mean": 0.7920618653297424,
+  "log_a_std": 0.9144124984741211,
+  "in_dim": 384,
+  "emb_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "n_items_trained": 40604,
+  "val_mse": 0.7908765135327636
+}
